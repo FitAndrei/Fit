@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0%;
+    height: 100%;
+}
+
+.page {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+}
+
+.header {
+    background-color: grey;
+}
+
+.content {
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: red;
+}
+
+.rectangle {
+    width: 35%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 5px 10px black;
+}
+
+.content-wrapper {
+    text-align: centre;
+    padding: 2rem 2rem;
+    margin: 1px;
+}
+
+.col {
+    display: inline-block;
+    padding: 1rem 1rem;
+}
